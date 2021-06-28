@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(136, 134, 0);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 360px;
+    background-color: rgb(0, 1, 82);
+    transform: translate(-50%, -50%);
+    border-radius: 0px;
+    background: #1a3bce;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .booking{
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 520;
+  }
+  .checked {
+    background-color: rgb(170, 168, 192);
+  }
+  
+  .column{
+    width: 60px;
+    height: 60px;
+    background-color: cadetblue;
+    border: 1px solid white;
+  }
+  
+  .column:hover {
+    cursor: pointer;
+    background-color: rgb(13, 61, 151);
+  }
