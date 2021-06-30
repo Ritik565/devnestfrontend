@@ -1,5 +1,5 @@
 .main {
-    border: 5px solid;
+    border: 5px solid yellow;
 }
 
 .image {
@@ -16,5 +16,7 @@
 }
 .design{
 background-color: cadetblue;
-width: 50px;
+width: 100px;
+height: 100px;
+right: 100px;
 }
