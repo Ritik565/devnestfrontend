@@ -1,0 +1,20 @@
+.main {
+    border: 5px solid;
+}
+
+.image {
+    border: 2px solid rgb(128, 87, 0);
+}
+
+.designMeme {
+    border: 2px solid rgb(228, 40, 15);
+    height: 15%;
+    width: 15%;
+}
+.buttons{
+    background-color: blue;
+}
+.design{
+background-color: cadetblue;
+width: 50px;
+}
