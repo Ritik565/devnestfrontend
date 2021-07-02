@@ -1,0 +1,11 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    border: 2px solid rgba(28, 13, 236, 0.651);
+    margin: auto;
+    padding: 10px;
+}
