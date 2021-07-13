@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.box{
+    width: 450px;
+    height: 450px;
+    border: 25px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+.placement{
+    height: 50px;
+    width: 50px;
+    border: 1px white;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.chess:nth-child(odd) .placement:nth-child(even) {
+    background-color: black;
+  }
+  .chess:nth-child(even) .placement:nth-child(odd) {
+    background-color: black;
+  }
