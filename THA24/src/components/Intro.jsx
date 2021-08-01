@@ -1,4 +1,4 @@
-const About = ()=>{
+const Intro = ()=>{
     return<div className="about page-container">
         <div className="title">
             ABOUT
@@ -9,5 +9,4 @@ const About = ()=>{
     </div>
 }
 
-export default About;
-© 2021 GitHub, Inc.
+export default Intro;
